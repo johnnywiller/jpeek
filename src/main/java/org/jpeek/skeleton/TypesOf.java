@@ -70,7 +70,7 @@ final class TypesOf extends SignatureVisitor implements Iterable<Directive> {
      * @param sign Method signature
      */
     TypesOf(final String sign) {
-        super(Opcodes.ASM6);
+        super(Opcodes.ASM9);
         this.types = new LinkedList<>();
         this.singature = sign;
         this.rtype = new AtomicReference<>();

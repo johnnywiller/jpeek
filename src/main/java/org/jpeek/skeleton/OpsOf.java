@@ -55,7 +55,7 @@ final class OpsOf extends MethodVisitor {
      * @param origin Original visitor
      */
     OpsOf(final Directives dirs, final MethodVisitor origin) {
-        super(Opcodes.ASM6, origin);
+        super(Opcodes.ASM9, origin);
         this.target = dirs;
     }
 
